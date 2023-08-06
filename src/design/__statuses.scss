@@ -1,0 +1,22 @@
+/* statutes of the elements */
+
+button {
+  z-index: 1;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  background: hsl( var(--color-white) / .1);
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: opacity 500ms linear, transform 750ms ease-in-out;
+}
+button:hover,
+button:focus {
+  opacity: 1;
+  transform: scale(1.1);
+}

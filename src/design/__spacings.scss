@@ -1,0 +1,104 @@
+/* ----------------- */
+/* CSS for spacings  */
+/* ----------------- */
+/* coeficient: 1.16  */
+
+/* CSS for control margins and paddings */
+@for $m from 1 to 21 {
+  
+  /* margins */
+  .ml--n#{$m} {
+    margin-left: -1*calc($m/10) + rem;
+  }
+  .mr--n#{$m} {
+    margin-right: -1*calc($m/10) + rem;
+  }
+  .mt--n#{$m} {
+    margin-top: -1*calc($m/10) + rem;
+  }
+  .mb--n#{$m} {
+    margin-bottom: -1*calc($m/10) + rem;
+  }
+  .mx--n#{$m} {
+    margin: 0 -1*calc($m/10) + rem;
+  }
+  .my--n#{$m} {
+    margin: -1*calc($m/10) + rem 0;
+  }
+  .ma--n#{$m} {
+    margin: -1*calc($m/10) + rem;
+  }
+
+  /*  padding */
+  .pl--n#{$m} {
+    padding-left: -1*calc($m/10) + rem;
+  }
+  .pr--n#{$m} {
+    padding-right: -1*calc($m/10) + rem;
+  }
+  .pt--n#{$m} {
+    padding-top: -1*calc($m/10) + rem;
+  }
+  .pb--n#{$m} {
+    padding-bottom: -1*calc($m/10) + rem;
+  }
+  .px--n#{$m} {
+    padding: 0 -1*calc($m/10) + rem;
+  }
+  .py--n#{$m} {
+    padding: -1*calc($m/10) + rem 0;
+  }
+  .pa--n#{$m} {
+    padding: -1*calc($m/10) + rem;
+  }
+}
+
+/* CSS for control positive left margins */
+@for $m from 0 to 20 {
+
+  /* margins */
+  .ml--#{$m} {
+    margin-left: calc($m/10) + rem;
+  }
+  .mr--#{$m} {
+    margin-right: calc($m/10) + rem;
+  }
+  .mt--#{$m} {
+    margin-top: calc($m/10) + rem;
+  }
+  .mb-#{$m} {
+    margin-bottom: calc($m/10) + rem;
+  }
+  .mx--#{$m} {
+    margin: 0 calc($m/10) + rem;
+  }
+  .my--#{$m} {
+    margin: calc($m/10) + rem 0;
+  }
+  .ma--#{$m} {
+    margin: calc($m/10) + rem;
+  }
+
+  /* paddings */
+  .pl--#{$m} {
+    padding-left: calc($m/10) + rem;
+  }
+  .pr--#{$m} {
+    padding-right: calc($m/10) + rem;
+  }
+  .pt--#{$m} {
+    padding-top: calc($m/10) + rem;
+  }
+  .pb--#{$m} {
+    padding-bottom: calc($m/10) + rem;
+  }
+  .px--#{$m} {
+    padding: 0 calc($m/10) + rem;
+  }
+  .py--#{$m} {
+    padding: calc($m/10) + rem 0;
+  }
+  .pa--#{$m} {
+    padding: calc($m/10) + rem;
+  }
+}

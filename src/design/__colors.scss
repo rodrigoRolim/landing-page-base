@@ -1,0 +1,87 @@
+/* ------------------- */
+/* Colors properties   */
+/* ------------------- */
+
+$cl-light: 231 77% 90%;
+$cl-dark: 230 35% 7%;
+$cl-muted: 208, 7%, 46%; 
+$cl-white: 0 0% 100%;
+
+$cl-success: 134, 61%, 41%;
+$cl-warning: 45, 100%, 51%;
+$cl-danger: 354, 70%, 54%;
+$cl-info: 188, 78%, 41%;
+
+$cl-primary: 211, 100%, 50%;
+$cl-secondary: 208, 7%, 46%;
+
+:root {
+  --color-dark: 230 35% 7%
+  --color-light: 231 77% 90%;
+  --color-white: 0 0% 100%;
+  --color-success: 134, 61%, 41%;
+  --color-warning: 45, 100%, 51%;
+  --color-danger: 354, 70%, 54%;
+  --color-info: 188, 78%, 41%;
+  --color-primary: 211, 100%, 50%;
+  --color-secondary: 208, 7%, 46%;
+}
+
+/* background colors */
+
+.bg-dark { background-color: hsl( var(--color-dark) ); }
+.bg-accent { background-color: hsl( var(--color-light) ); }
+.bg-white { background-color: hsl( var(--color-white) ); }
+.bg-muted { background-color: hsl( var(--color-muted ) ); }
+
+.bg-success { background-color: hsl( var(--color-success ) ); }
+.bg-warning { background-color: hsl( var(--color-warning ) ); }
+.bg-info { background-color: hsl( var(--color-info ) ); }
+.bg-danger { background-color: hsl( var(--color-danger ) ); }
+
+.bg-primary { background-color: hsl( var(--color-primary) ); }
+.bg-secondary { background-color: hsl( var(--color-secondary ) ); }
+
+/* text colors */
+
+.text-dark { color: hsl( var(--color-dark) ); }
+.text-accent { color: hsl( var(--color-light) ); }
+.text-white { color: hsl( var(--color-white) ); }
+.text-muted { color: hsl( var(--color-muted) ); }
+
+.text-success { color: hsl( var(--color-success) ); }
+.text-warning { color: hsl( var(--color-warning) ); }
+.text-info { color: hsl( var(--color-info) ); }
+.text-danger { color: hsl( var(--color-danger) ); }
+
+.text-primary { color: hsl( var(--color-primary) ); }
+.text-secondary { color: hsl( var(--color-secondary) ); }
+
+/* border colors*/
+.border-dark,
+.border-accent,
+.border-white,
+.border-muted,
+.border-muted,
+.border-success,
+.border-warning,
+.border-danger,
+.border-info,
+.border-danger,
+.border-primary,
+.border-secondary {
+  border: var(--border-width, 1px) var(--border-style, solid)
+}
+
+.border-dark { border-color: hsl( var(--color-dark) ); }
+.border-accent { border-color: hsl( var(--color-accent) ); }
+.border-white { border-color: hsl( var(--color-white) ); }
+.border-muted { border-color: hsl( var(--color-muted) ); }
+
+.border-success { border-color: hsl( var(--color-success) ); }
+.border-warning { border-color: hsl( var(--color-warning) ); }
+.border-info { border-color: hsl( var(--color-info) ); }
+.border-danger { border-color: hsl( var(--color-danger) ); }
+
+.border-primary { border-color: hsl( var(--color-primary) ); }
+.border-secondary { border-color: hsl( var(--color-primary) ); }

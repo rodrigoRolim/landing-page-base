@@ -1,0 +1,58 @@
+/* ---------------------------------------- */
+/* sizes: xsmall, small, medium, large      */
+/* ---------------------------------------- */
+
+
+$base-size: 1rem;
+:root {
+  --base-size: $base-size
+}
+
+/* button and input elements */
+.button-xsmall,
+.input-xsmall {
+  height: $base-size;
+  padding: 2px 8px;
+}
+
+.button-small,
+.input-small {
+  height: $base-size*2;
+  padding: 4px 12px;
+}
+
+.button-medium,
+.input-medium {
+  height: $base-size*3;
+  padding: 8px 16px;
+}
+
+.button-large,
+.input-large {
+  height: $base-size*4;
+  padding: 12px 24px;
+}
+
+/* round buttons */
+.button-round-xsmall,
+.button-round-small,
+.button-round-medium,
+.button-round-large {
+  font-size: var(--fs-button-round, --fs-300);
+}
+
+.button-round-xsmall { padding: $base-size; }
+.button-round-small { padding: $base-size*2; }
+.button-round-medium { padding: $base-size*3; }
+.button-round-large { padding: $base-size*4; }
+
+/* border sizes */
+
+$base-border-size: 1px;
+
+.border-xsmall { border-width: $base-border-size; }
+.border-small { border-width: $base-border-size*2; }
+.border-medium { border-width: $base-border-size*3; }
+.border-large { border-width: $base-border-size*4; }
+
+/*  */
