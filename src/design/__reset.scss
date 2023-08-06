@@ -43,6 +43,13 @@ select {
   outline: none;
 }
 
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $cl-dark;
+}
 input[type="number"] {
   -webkit-appearance: textfield;
      -moz-appearance: textfield;

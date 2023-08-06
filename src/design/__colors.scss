@@ -2,18 +2,20 @@
 /* Colors properties   */
 /* ------------------- */
 
-$cl-light: 231 77% 90%;
-$cl-dark: 230 35% 7%;
-$cl-muted: 208, 7%, 46%; 
-$cl-white: 0 0% 100%;
+$cl-light: hsl(231 77% 90%);
+$cl-dark: hsl(230 35% 7%);
+$cl-muted: hsl(208, 7%, 46%); 
+$cl-white: hsl(0 0% 100%);
 
-$cl-success: 134, 61%, 41%;
-$cl-warning: 45, 100%, 51%;
-$cl-danger: 354, 70%, 54%;
-$cl-info: 188, 78%, 41%;
+$cl-success: hsl(134, 61%, 41%);
+$cl-warning: hsl(45, 100%, 51%);
+$cl-danger: hsl(354, 70%, 54%);
+$cl-info: hsl(188, 78%, 41%);
 
-$cl-primary: 211, 100%, 50%;
-$cl-secondary: 208, 7%, 46%;
+$cl-primary: hsl(211, 100%, 50%);
+$cl-secondary: hsl(208, 7%, 46%);
+
+$cl-link: rgb(51, 49, 49);
 
 :root {
   --color-dark: 230 35% 7%
